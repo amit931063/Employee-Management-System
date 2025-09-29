@@ -18,9 +18,10 @@ API Testing: Postman
 🚀 Getting Started
 1. Clone the repository
 git clone https://github.com/amit931063/employee-management-system.git
+
 cd employee-management-system
 
-2. Configure PostgreSQL
+3. Configure PostgreSQL
 Create a database (e.g., employee_db)
 Update your src/main/resources/application.properties with your DB credentials:
 spring.datasource.url=jdbc:postgresql://localhost:5432/employee_db
@@ -29,10 +30,10 @@ spring.datasource.password=your_db_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
-3. Build and run the project
+4. Build and run the project
 mvn spring-boot:run
 
-4. Access APIs
+5. Access APIs
 
 Base URL: http://localhost:8080/api/employees
 
